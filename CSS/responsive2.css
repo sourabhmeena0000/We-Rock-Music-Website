@@ -1,0 +1,30 @@
+
+.container{
+    display: block;
+}
+#box1{
+    position: relative;
+   top: 320px;
+   left: 22px;
+    
+}
+#box2{
+    position: relative;
+    left: 640px;
+    top: -574px;
+    float: none;
+}
+#navid1{
+    display: inline-block;
+    position: relative;
+    left: 355px;
+    width: 300px;
+}
+#navid{
+    width: 1050px;
+}
+.end{
+    width: 1074px;
+    position: relative;
+    top: 100px;
+}

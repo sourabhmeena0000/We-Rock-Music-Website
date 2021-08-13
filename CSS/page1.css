@@ -1,0 +1,575 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-attachment: fixed;
+    background-position:right;
+    background-blend-mode: soft-light;
+    opacity:unset;
+    background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80);
+    /* background-image: url(https://wallpaperaccess.com/full/2637420.jpg); */
+    filter: blur(1000);
+    /* background-repeat: no-repeat; */
+}
+
+#navid{
+    background-color:rgba(247, 19, 19, 0.945);
+    padding: 12px;
+    /* position:sticky; */
+    top: 0px;
+    
+}
+#navid ul{
+    padding-left: 120px;
+}
+#navid ul li{
+    float: left;
+    list-style: none;
+    margin: 0px 30px;
+}
+#navid ul li a{
+    text-decoration: none;
+    color: white;
+}
+#search{
+    float: right;
+    margin-right: 8px;
+    padding: 2px;
+    width: 200px;
+}
+ #logo1{
+    color:white;
+    float: left;
+    position: relative;
+    right: 580px;
+    bottom: 8px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+#logo2{
+    color: white;
+    position: relative;
+    right: 580px;
+    top:10px;
+    font-weight: bolder;
+
+}
+  a:hover
+  {
+   background-color:black;
+   cursor: pointer;
+ }
+  
+ #navid1{
+     background-color:rgba(247, 19, 19, 0.945);
+     margin: 1px auto;
+     padding: 5px 0px;
+     text-align: center;
+     position: sticky;
+     top: 0px;
+     width: 500px;
+     border-radius: 4px;
+     }
+ #navid1 button{
+     padding: 0px 4px;
+     cursor: pointer;
+ }
+ .container{
+     border: 2px solid black;
+     margin: 50px 50px;
+     width: 30%;
+     height: 840px;
+     display: inline-block;
+     border-radius: 10px;
+ }
+ #box2{
+     float: right;
+ }
+ #box1 p{
+   background-color:rgba(247, 19, 19, 0.945);
+   border-top-left-radius: 9px;
+   border-top-right-radius: 9px;
+   padding: 6px;
+   text-align: center;
+
+ }
+ #box1 p button{
+     float: right;
+     padding: 0px 5px;
+     cursor: pointer;
+     border-radius: 4px;
+ }
+ #box1 p a{
+     text-decoration: none;
+     color: white;
+ }
+#p1{ 
+    background-color:rgba(247, 19, 19, 0.945);
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    padding: 6px;
+    text-align: center;
+}
+#p1 a{
+    text-decoration: none;
+     color: white;
+}
+#p1 button{
+    float: right;
+     padding: 0px 5px;
+     cursor: pointer;
+     border-radius: 4px;
+}
+#p2{
+    background-color:rgba(247, 19, 19, 0.945);
+    padding: 6px;
+    text-align: center; 
+    position: relative;
+    top: 180px;
+}
+#p2 a{
+    text-decoration: none;
+    color: white;  
+}
+#p2 button{
+    float: right;
+     padding: 0px 5px;
+     cursor: pointer;
+     border-radius: 4px;
+}
+#p3{
+    background-color:rgba(247, 19, 19, 0.945);
+    padding: 6px;
+    text-align: center; 
+    position: relative;
+    top: 360px;
+}
+#p3 a{
+    text-decoration: none;
+    color: white;    
+}
+#p3 button{
+    float: right;
+    padding: 0px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#p4{
+    background-color:rgba(247, 19, 19, 0.945);
+    padding: 6px;
+    
+    text-align: center; 
+    position: relative;
+    top: 539px;
+    
+}
+#p4 a{
+    text-decoration: none;
+    color: white;       
+}
+#p4 button{
+    float: right;
+    padding: 0px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#box1 img{
+    height: 100px;
+    margin: 20px 2px;
+    border: 1px solid black;
+    filter: opacity(90%);
+}
+#img1{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 144px;
+}
+#img1 div{
+    position: relative;
+    bottom: 85px;
+    left: 115px;
+    height: 0px;
+}
+#img1 button{
+    float: right;
+    position: relative;
+    bottom: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+#img1 audio{
+    position: relative;
+    bottom:23px;
+    height: 20px;
+    width: 120px;
+    float: right;
+}
+#img2{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 144px; 
+}
+#img2 button{
+    float: right;
+    position: relative;
+    bottom: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+#img2 div{
+    position: relative;
+    bottom: 85px;
+    left: 115px;
+    height: 0px;
+}
+#img2 audio {
+    position: relative;
+    bottom:23px;
+    height: 20px;
+    width: 120px;
+    float: right;  
+}
+#img3{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 144px; 
+}
+#img3 button{
+    float: right;
+    position: relative;
+    bottom: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+#img3 div{
+    position: relative;
+    bottom: 85px;
+    left: 115px;
+    height: 0px;
+}
+#img3 audio {
+    position: relative;
+    bottom:23px;
+    height: 20px;
+    width: 120px;
+    float: right;  
+}
+#img4{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 144px;   
+}
+#img4 button{
+    float: right;
+    position: relative;
+    bottom: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+#img4 div{
+    position: relative;
+    bottom: 85px;
+    left: 115px;
+    height: 0px;
+}
+#img4 audio {
+    position: relative;
+    bottom:23px;
+    height: 20px;
+    width: 120px;
+    float: right;  
+}
+#img5{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 144px;   
+}
+#img5 button{
+    float: right;
+    position: relative;
+    bottom: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+#img5 div{
+    position: relative;
+    bottom: 85px;
+    left: 115px;
+    height: 0px;
+}
+#img5 audio {
+    position: relative;
+    bottom:23px;
+    height: 20px;
+    width: 120px;
+    float: right;  
+}
+#box2 img{
+    height: 60px;
+    margin: 8px 2px;
+    border: 1px solid black;
+    filter: opacity(90%);
+    
+    
+}
+#photo1{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 80px;
+    position: relative;
+    bottom: 91px;
+}
+#photo1 div{
+    position: relative;
+    bottom: 50px;
+    left: 74px;
+    font-size: 15px;
+}
+#photo1 button{
+    float: right;
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+}
+#photo1 audio{
+    height: 18px;
+    width: 100px;
+    float: right;
+    position: relative;
+    bottom: 39px;
+}
+#photo2{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 80px;
+    position: relative;
+    bottom: 91px;
+}
+#photo2 div{
+    position: relative;
+    bottom: 50px;
+    left: 74px;
+    font-size: 15px;
+}
+#photo2 button{
+    float: right;
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+}
+#photo2 audio{
+    height: 18px;
+    width: 100px;
+    float: right;
+    position: relative;
+    bottom: 39px;
+}
+#photo3{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 80px;
+    position: relative;
+    bottom: 80px;
+}
+#photo3 div{
+    position: relative;
+    bottom:50px;
+    left: 74px;
+    font-size: 15px;
+}
+#photo3 button{
+    float: right;
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+}
+#photo3 audio{
+    height: 18px;
+    width: 100px;
+    float: right;
+    position: relative;
+    bottom: 39px;
+}
+#photo4{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 80px;
+    position: relative;
+    bottom: 80px;
+}
+#photo4 div{
+    position: relative;
+    bottom:50px;
+    left: 74px;
+    font-size: 15px;
+}
+#photo4 button{
+    float: right;
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+}
+#photo4 audio{
+    height: 18px;
+    width: 100px;
+    float: right;
+    position: relative;
+    bottom: 39px;
+}
+#photo5{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 80px;
+    position: relative;
+    bottom: 69px;
+}
+#photo5 div{
+    position: relative;
+    bottom:50px;
+    left: 74px;
+    font-size: 15px;
+}
+#photo5 button{
+    float: right;
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+}
+#photo5 audio{
+    height: 18px;
+    width: 100px;
+    float: right;
+    position: relative;
+    bottom: 39px;
+}
+#photo6{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 80px;
+    position: relative;
+    bottom: 69px;
+}
+#photo6 div{
+    position: relative;
+    bottom:50px;
+    left: 74px;
+    font-size: 15px;
+}
+#photo6 button{
+    float: right;
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+}
+#photo6 audio{
+    height: 18px;
+    width: 100px;
+    float: right;
+    position: relative;
+    bottom: 39px;
+}
+#photo7{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 80px;
+    position: relative;
+    bottom: 59px;
+}
+#photo7 div{
+    position: relative;
+    bottom:50px;
+    left: 74px;
+    font-size: 15px;
+}
+#photo7 button{
+    float: right;
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+}
+#photo7 audio{
+    height: 18px;
+    width: 100px;
+    float: right;
+    position: relative;
+    bottom: 39px;
+}
+#photo8{
+    display: inline-block;
+    background-color:rgba(128, 128, 128, 0.664);
+    width: 456px;
+    height: 80px;
+    position: relative;
+    bottom: 59px;
+}
+#photo8 div{
+    position: relative;
+    bottom:50px;
+    left: 74px;
+    font-size: 15px;
+}
+#photo8 button{
+    float: right;
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+}
+#photo8 audio{
+    height: 18px;
+    width: 100px;
+    float: right;
+    position: relative;
+    bottom: 39px;
+}
+.end {
+background-color:rgba(247, 19, 19, 0.945);
+height: 150px;
+position: relative;
+top: 100px;
+}
+#last2{
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    top: 26px;
+}
+#last1{
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 700px;
+    top: 26px;
+}
+.last{
+    color: white;
+}
+#last3{
+    float: right;
+    position: relative;
+    right: 200px;
+    top: 45px;
+}
+
+
+
+
+
+
+
+
+
+ 
